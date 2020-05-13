@@ -1,0 +1,58 @@
+/* -------------------------------------------------------------- 
+  
+   Boilerplate reset.css
+   * Resets default browser CSS.
+   
+-------------------------------------------------------------- */
+html, img, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; max-width: 100%;}
+body { line-height: 1.5; background: #fff; }
+table { 
+border-collapse: collapse; border-spacing: 0;
+overflow-x: scroll;
+display: block;
+}
+caption, th, td { text-align: left; font-weight:400; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+a img { border: none; }
+input,textarea { margin: 0; }
+
+/* Removes Firefox imposed outline */
+a { outline: none; }
+
+/* Clearing floats without extra markup  */
+.wrapper { display: inline-block; }
+.wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .wrapper { height: 1%; }
+.wrapper { display: block; }
+
+
+/* ---------------------------------------------------------
+Responsive Design by : Wawan Beneran (http://gatewan.com)
+Name: Adaptor
+Date: 20/12/2016
+Responsive made 
+----------------------------------------------- */
+
+@media screen and (max-width:550px){
+img {max-width:100%;}
+#body table {
+    max-width: 100%;
+    margin-left: -10px;
+}
+
+}
+
+@media screen and (max-width:470px){
+img {max-width:100%;}
+#body table {
+    max-width: 100%;
+    margin-left: -10px;
+}
+
+}
+
+
+
+
+

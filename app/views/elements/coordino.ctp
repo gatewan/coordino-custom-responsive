@@ -1,0 +1,2 @@
+<a id="coordino_logo" class="right" href="http://gatewan.com" title="Gerbang Observasi Teknologi, Algoritma dan Pemrograman">
+    <?=$html->image('coordino_faded.png', array('alt' => 'Gatewan - The Question and Answer System'));?>
